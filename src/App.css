@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cart-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  svg {
+    height: 1.6rem;
+    margin-left: 5px;
+  }
+}
+
+.active{
+  background-color: #ef4444;
+}
+
+.inactive
+{
+  background-color: #94a3b8;
+}
+
+.cart-value {
+  position: absolute;
+  top: -10px;
+  left: 15px;
+  right: -16px;
+  background:gray;
+  border: 2px solid white ;
+  color: white;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  padding: 12px;
+}
+
+.register-wrapper
+{
+    margin: 0 auto;
+    width: 400px;
+    height: 310px;
+    background-color:aqua;
+    color: #4f46e5;
+    border-radius: 10px;
+}
+@media (max-width: 508px) {
+.checkout h1{
+  font-size: 30px ;
+}
+
+.checkout p{
+  font-size: 20px ;
+
+}
+
+.heading h1{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* .td1
+{
+  width:700px;
+} */
+
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  text-align: left;
+  width:60%
+}
+
+
+@media (min-width: 508px) {
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    text-align: left;
+      width:20%
+  }
+  
+}
